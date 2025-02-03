@@ -1,0 +1,98 @@
+/* top right links */
+.top-right {
+    text-align: right;
+    margin: 30px;
+}
+
+.top-right a {
+    margin: 10px;
+    font-size: 20px;
+}
+
+/* center div contining h1 and form */
+.center-div {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* heading of center div */
+.center-div h1 {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 70px;
+}
+
+/* text input of center div (search bar) */
+.center-div input[type="text"] {
+    display: block;
+    width: 700px;
+    height: 30px;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* Search button div */
+.center-div div {
+    text-align: center;
+    margin-top: 60px;
+}
+
+/* Search button text */
+.center-div input {
+    text-align: center;
+    font-size: 24px;
+}
+
+/* AdvSearch Header */
+.advs-h {
+    margin-top: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
+
+/* AdvSearch Table */
+.center-div table {
+    width: max-content;
+    text-align: left;
+}
+
+/* AdvSearch header text */
+.center-div th {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+/* AdvSearch trows */
+.advs-table input[type="text"] {
+    margin: 3px;
+}
+
+/* AdvSearch td left text */
+.center-div td {
+    font-size: 20px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+/* AdvSearch's search div */
+.advs-search {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+/* AdvSearch's search buton */
+.advs-search input {
+    background-color: rgb(1, 151, 220);
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 3px;
+    width: 170px;
+    border: none;
+}
