@@ -38,12 +38,14 @@
 .center-div div {
     text-align: center;
     margin-top: 60px;
+    padding: 30px;
 }
 
 /* Search button text */
 .center-div input {
     text-align: center;
     font-size: 24px;
+    margin: 2px;
 }
 
 /* AdvSearch Header */
